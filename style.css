@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Nunito:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.esquerda {
+  width: 50vw;
+  height: 100vh;
+  background: linear-gradient(58.515deg, #ffffff 20.4%, #e7e7e7 80.6%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.direita {
+  width: 50vw;
+  height: 100vh;
+  background: linear-gradient(58.515deg, #e2e2e2 20.4%, #e0e0e0 80.6%);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0;
+  font-family: "Nunito";
+  color: #1a202c;
+}
+.forms-login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito";
+  gap: 15px;
+}
+.login-password {
+  width: 350px;
+  height: 50px;
+  padding: 0 7px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-family: "barlow";
+  border: 1.5px solid #3a3a3a6f;
+}
+.lembre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "barlow";
+  margin: 0 0 15px 0;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.btn-enter {
+  width: 350px;
+  height: 50px;
+  background-color: #04c35c;
+  border: transparent;
+  border-radius: 7px;
+  font-family: "barlow";
+  font-size: 17.5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-google {
+  width: 350px;
+  height: 50px;
+  background-color: #000000;
+  border: transparent;
+  border-radius: 7px;
+  color: white;
+  font-family: "barlow";
+  font-size: 17.5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "barlow";
+  cursor: pointer;
+}
